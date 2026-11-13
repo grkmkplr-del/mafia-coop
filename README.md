@@ -13,7 +13,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Feature | Status |
 |---|---|
 | See the other player (movement, full animation, weapon in hand) | ✅ Working |
-| Mission sync: host runs the mission, client follows (objectives, cutscenes, world state) | ✅ Working |
+| Mission sync: host runs the mission, client follows (objectives, cutscenes, world state) | 🔧 In progress |
 | Mission NPCs synced (movement, animation, health, death) | ✅ Working |
 | Combat: both players can hit enemies, enemies target both players | ✅ Working |
 | Shared game over and Retry | ✅ Working |
@@ -29,7 +29,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 ### In detail
 
-- **Two players, one mission.** The host plays the story and leads the mission. The second player joins the same mission and sees the same objectives, cutscenes and changes in the world.
+- **Two players, one mission.** The host plays the story and leads the mission. The second player joins the same mission and sees the same objectives, cutscenes and changes in the world. *(In progress.)*
 - **Players see each other.** Movement, turning and every animation of the other player, with the weapon in their hand.
 - **Mission characters** (allies and enemies) move, animate, take damage and die the same way for both players.
 - **Combat.** Both players can hit enemies and allies; enemies notice, target and damage both players. Allies' health bars are shown for both.
@@ -65,6 +65,6 @@ Questions and suggestions are welcome in [Issues](../../issues).
 
 ## License
 
-© 2026 grkmkplr-del. **All rights reserved** until the public release.
+© 2026 Görkem Köprülü. **All rights reserved** until the public release.
 
 *Not affiliated with 2K Games, Illusion Softworks or Hangar 13. Mafia is a trademark of its respective owners. No game files are included.*
