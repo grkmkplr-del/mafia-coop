@@ -18,6 +18,8 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Combat: both players can hit enemies, enemies target both players | ✅ Working |
 | Shared game over and Retry | ✅ Working |
 | World items: shared ground weapons and pickups, doors | ✅ Working |
+| Throwing weapons to each other | ✅ Working |
+| Weapon sharing between players | ✅ Working |
 | Cars: driving, damage, locks and picklock synced | ✅ Working |
 | Riding as passenger | ✅ Working |
 | Traffic mirrored, stealing cars, pulling drivers out | ✅ Working |
@@ -35,6 +37,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Combat.** Both players can hit enemies and allies; enemies notice, target and damage both players. Allies' health bars are shown for both.
 - **Game over and Retry.** A failed mission, a team wipe or an arrest ends the mission for both, and Retry restarts both together.
 - **World items.** Weapons a mission hands out can be taken by both players, so nobody goes in unarmed. Weapons dropped during play exist once: whoever takes one, it is gone for the other. Doors are shared.
+- **Weapon sharing.** Throw a weapon to the other player and they can pick it up and use it; players can share weapons with each other during a mission.
 - **Cars.** Either player can drive; the other sees the car move, crash and take damage the same way. Car locks and picklocking are shared. Garage cars included.
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
