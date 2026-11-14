@@ -4,6 +4,24 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.174 – 0.176 (2026-11-14): stability
+- Fixed a crash at the end-of-mission cutscene.
+- The HUD comes back for the second player after a Retry.
+- Fixed the first mission's start: both players now see its opening cutscene, and the host drives when a mission starts with both players in a car.
+- Known issue: the chase car in a mission is not synced yet.
+
+## 0.155 – 0.173 (2026-11-13 – 2026-11-14): lobby and cutscenes together
+- **New "Host/Join Game" option in the main menu.** The host enters a name and a port and creates the game; the other player joins with the host's IP and port.
+- Starting a New Game from the host's lobby starts the game for both players together.
+- Cutscenes start for both players at the same time and are skipped only when both press skip.
+- Played together from the intro into the first mission; Retry works there too.
+- Fixed several hangs and crashes around cutscenes and the first mission.
+
+## 0.148 – 0.154 (2026-11-13): getting arrested as the second player
+- The police can arrest the second player; the mission ends for both and Retry restarts both.
+- The second player sees the handcuff icon and the crime text when the police are after them.
+- Police cars and cops no longer vanish for the second player after a Retry.
+
 ## 0.145 – 0.147 (2026-11-13): police and the second player's crimes
 - The host's police now learn about crimes committed by the second player.
 - The police notice when the second player draws a weapon.

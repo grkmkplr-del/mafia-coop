@@ -4,7 +4,7 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.147 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.176 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -13,6 +13,8 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Feature | Status |
 |---|---|
 | See the other player (movement, full animation, weapon in hand) | ✅ Working |
+| Lobby: Host/Join Game in the main menu, New Game together | ✅ Working |
+| Cutscenes together, skipped only when both press skip | ✅ Working |
 | Mission sync: host runs the mission, client follows (objectives, cutscenes, world state) | 🔧 In progress |
 | Mission NPCs synced (movement, animation, health, death) | ✅ Working |
 | Combat: both players can hit enemies, enemies target both players | ✅ Working |
@@ -24,13 +26,15 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Riding as passenger | ✅ Working |
 | Traffic mirrored, stealing cars, pulling drivers out | ✅ Working |
 | Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
-| Arrest with shared Retry, police cops and roadblocks synced | ✅ Working |
-| Police reacting to the second player's crimes | 🔧 In progress |
+| Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
+| Police reacting to the second player's crimes and drawn weapons | ✅ Working |
 | Full story campaign in co-op | 🔧 In progress |
-| Playing over the internet | ⏳ Planned |
+| Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
 
 ### In detail
 
+- **Lobby.** A "Host/Join Game" option in the main menu: the host creates the game, the other player joins by IP. Starting a New Game in the lobby starts it for both.
+- **Cutscenes together.** Both players watch each cutscene at the same time; it is skipped only when both press skip.
 - **Two players, one mission.** The host plays the story and leads the mission. The second player joins the same mission and sees the same objectives, cutscenes and changes in the world. *(In progress.)*
 - **Players see each other.** Movement, turning and every animation of the other player, with the weapon in their hand.
 - **Mission characters** (allies and enemies) move, animate, take damage and die the same way for both players.
@@ -42,11 +46,11 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
 - **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.
-- **Police.** Cops, police cars and roadblocks are the same for both players. Work on the police reacting to the second player's crimes is in progress.
+- **Police.** Cops, police cars and roadblocks are the same for both players. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text.
 
 ## Current limitations
 
-- **Same PC only for now.** The current build connects two copies of the game on one computer. Internet play is planned.
+- **Tested on one PC so far.** Joining by IP is built, but every test so far ran two copies of the game on the same computer. Playing over the internet may need the host to open a port on the router.
 - Built for the Steam version of *Mafia* (app 40990). Other versions are not supported yet; the mod checks the game build and stays off on any other version.
 - Known issues are listed per version in the [patch notes](CHANGELOG.md).
 
