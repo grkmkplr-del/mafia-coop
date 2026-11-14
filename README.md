@@ -4,7 +4,7 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.176 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.200 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -13,7 +13,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Feature | Status |
 |---|---|
 | See the other player (movement, full animation, weapon in hand) | ✅ Working |
-| Lobby: Host/Join Game in the main menu, New Game together | ✅ Working |
+| Lobby: Host/Join Game in the main menu, New Game and Load Game together | ✅ Working |
 | Cutscenes together, skipped only when both press skip | ✅ Working |
 | Mission sync: host runs the mission, client follows (objectives, cutscenes, world state) | 🔧 In progress |
 | Mission NPCs synced (movement, animation, health, death) | ✅ Working |
@@ -24,6 +24,9 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Weapon sharing between players | ✅ Working |
 | Cars: driving, damage, locks and picklock synced | ✅ Working |
 | Riding as passenger | ✅ Working |
+| Own car for the second player in missions | ✅ Working |
+| Enemy chase cars synced | ✅ Working |
+| Moving between places together (garage, city) | ✅ Working |
 | Traffic mirrored, stealing cars, pulling drivers out | ✅ Working |
 | Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
@@ -33,7 +36,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 ### In detail
 
-- **Lobby.** A "Host/Join Game" option in the main menu: the host creates the game, the other player joins by IP. Starting a New Game in the lobby starts it for both.
+- **Lobby.** A "Host/Join Game" option in the main menu: the host creates the game, the other player joins by IP. Starting a New Game or loading a save in the lobby starts it for both.
 - **Cutscenes together.** Both players watch each cutscene at the same time; it is skipped only when both press skip.
 - **Two players, one mission.** The host plays the story and leads the mission. The second player joins the same mission and sees the same objectives, cutscenes and changes in the world. *(In progress.)*
 - **Players see each other.** Movement, turning and every animation of the other player, with the weapon in their hand.
@@ -44,9 +47,11 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Weapon sharing.** Throw a weapon to the other player and they can pick it up and use it; players can share weapons with each other during a mission.
 - **Cars.** Either player can drive; the other sees the car move, crash and take damage the same way. Car locks and picklocking are shared. Garage cars included.
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
+- **Own mission car.** When a mission puts you in a car, the second player gets their own copy beside the host's. Enemy chase cars are the same for both.
+- **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
 - **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.
-- **Police.** Cops, police cars and roadblocks are the same for both players. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text.
+- **Police.** Cops, police cars and roadblocks are the same for both players. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text. Both players can fight and kill cops.
 
 ## Current limitations
 

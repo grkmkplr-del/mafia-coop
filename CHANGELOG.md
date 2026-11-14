@@ -4,11 +4,29 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.196 – 0.200 (2026-11-14): moving between places together
+- When a mission moves you to a new place (for example from the garage into the city), the game waits at the exit until both players are there.
+- The car you drove or rode in comes along to the new place for both players.
+- Fixed a crash after moving from the garage into the city.
+- Fixed a frozen copy of the other player left floating after a scene change.
+
+## 0.188 – 0.195 (2026-11-14): Load Game together, police fights
+- **Load Game together:** the host loads a save and the second player gets the same save and starts in the same mission.
+- The second player can now shoot and kill cops who got out of police cars; dead cops fall for both players.
+- Fixed a crash on Retry and a crash while riding along.
+- Allies no longer climb into the second player's car on the host's side.
+
+## 0.177 – 0.187 (2026-11-14): own car, chase cars, Retry fixes
+- **Own mission car:** when a mission puts you in a car, the second player gets their own copy right beside the host's and drives it.
+- Enemy chase cars are the same for both players.
+- Fixed the second player's game hanging after a Retry.
+- Fixed leftover copies of the players standing around after a Retry.
+- When the host dies, the second player's mission restarts together with the host's.
+
 ## 0.174 – 0.176 (2026-11-14): stability
 - Fixed a crash at the end-of-mission cutscene.
 - The HUD comes back for the second player after a Retry.
 - Fixed the first mission's start: both players now see its opening cutscene, and the host drives when a mission starts with both players in a car.
-- Known issue: the chase car in a mission is not synced yet.
 
 ## 0.155 – 0.173 (2026-11-13 – 2026-11-14): lobby and cutscenes together
 - **New "Host/Join Game" option in the main menu.** The host enters a name and a port and creates the game; the other player joins with the host's IP and port.
