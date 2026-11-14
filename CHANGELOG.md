@@ -4,6 +4,27 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.214 – 0.218 (2026-11-14): co-op HUD, co-op saves (new, being tested)
+- The other player's name and health are shown over their head (green / yellow / red), up to 150 m away.
+- The other player is shown on the TAB map as a green arrow with their name.
+- Co-op games keep their own save folder, separate from your single-player saves.
+- Fixed the second player missing the host's story events when a new mission starts.
+- Before a mid-mission cutscene the game waits until both players are close together.
+
+## 0.207 – 0.213 (2026-11-14): dialogues, Retry with your own car
+- The second player now sees the subtitles of what characters say during missions.
+- During conversations the second player stands next to the host and both watch the talk together.
+- After a Retry each player is back in their own car.
+- Fixed a crash at the start of a conversation.
+- Fixed a traffic car sometimes missing on the second player's side.
+
+## 0.201 – 0.206 (2026-11-14): garage exit, pause menu
+- Both players can leave the garage, each in their own car or together in one car.
+- **ESC no longer pauses the game:** the world keeps running while one player is in the menu, as it should in co-op.
+- The second player gets their own car back after a Retry in the city.
+- The second player no longer gets a game-over menu: they wait on a dark screen until the host chooses Retry.
+- Fixed a crash at the garage exit.
+
 ## 0.196 – 0.200 (2026-11-14): moving between places together
 - When a mission moves you to a new place (for example from the garage into the city), the game waits at the exit until both players are there.
 - The car you drove or rode in comes along to the new place for both players.

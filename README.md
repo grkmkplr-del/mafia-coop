@@ -4,7 +4,7 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.200 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.218 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -27,6 +27,10 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Own car for the second player in missions | ✅ Working |
 | Enemy chase cars synced | ✅ Working |
 | Moving between places together (garage, city) | ✅ Working |
+| Mission dialogues: subtitles and conversations for both players | ✅ Working |
+| Pause menu does not pause the game | ✅ Working |
+| Name and health over the other player's head, other player on the map | 🔧 New, being tested |
+| Separate save folder for co-op games | 🔧 New, being tested |
 | Traffic mirrored, stealing cars, pulling drivers out | ✅ Working |
 | Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
@@ -48,6 +52,9 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Cars.** Either player can drive; the other sees the car move, crash and take damage the same way. Car locks and picklocking are shared. Garage cars included.
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
 - **Own mission car.** When a mission puts you in a car, the second player gets their own copy beside the host's. Enemy chase cars are the same for both.
+- **Dialogues.** Both players see the subtitles of what characters say; during conversations the second player stands next to the host.
+- **No pause.** Opening the ESC menu does not stop the game for the other player.
+- **Co-op HUD** *(being tested)*. The other player's name and health over their head, and their position on the TAB map.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
 - **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.
