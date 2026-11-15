@@ -4,7 +4,7 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.218 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.269 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -35,6 +35,8 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
+| Mission checkpoints: the game waits for both players | ✅ Working |
+| Story played together into mission 3 (Molotov Party) | ✅ Working |
 | Full story campaign in co-op | 🔧 In progress |
 | Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
 
@@ -55,6 +57,8 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Dialogues.** Both players see the subtitles of what characters say; during conversations the second player stands next to the host.
 - **No pause.** Opening the ESC menu does not stop the game for the other player.
 - **Co-op HUD** *(being tested)*. The other player's name and health over their head, and their position on the TAB map.
+- **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
+- **Handy keys.** F10 jumps to the other player (with your car), F3 lets the host restart the mission.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
 - **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.

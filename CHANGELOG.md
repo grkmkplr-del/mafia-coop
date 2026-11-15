@@ -4,6 +4,25 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.244 – 0.269 (2026-11-15): story missions 1 – 3 together
+- Played together from a New Game through the end of the first mission, into the taxi mission and Molotov Party.
+- Cutscenes stay in sync across the first missions; a skip now counts only for the cutscene both players are watching.
+- The intro video is skipped in co-op, so both games start the story together.
+- **F10:** jump to the other player (with your car if you drive).
+- When a cutscene moves the host somewhere else, the second player is brought along.
+- Molotov Party: both players start in the mission car; the cars you have to wreck at Morello's garage take the same damage for both players.
+- Cars Ralph teaches you to steal are learned by both players.
+- Fixed getting into the other player's car, and getting back into a car after a loaded save.
+- Fixed several crashes after mission changes, Retries and loaded saves.
+
+## 0.219 – 0.243 (2026-11-15): checkpoints, enemies, Retry key
+- Mission checkpoints work when the second player reaches them first; the game waits until both players are there.
+- Enemies that arrive later in a mission can be hit by the second player; NPCs get the same weapons in their hands as on the host.
+- Bodies no longer block bullets or movement on the second player's side.
+- Ground weapons now also show indoors.
+- **F3:** the host can restart the mission (Retry) at any time.
+- Fixed black screens and freezes after cutscenes and Retries.
+
 ## 0.214 – 0.218 (2026-11-14): co-op HUD, co-op saves (new, being tested)
 - The other player's name and health are shown over their head (green / yellow / red), up to 150 m away.
 - The other player is shown on the TAB map as a green arrow with their name.
