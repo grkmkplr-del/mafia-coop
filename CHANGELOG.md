@@ -4,6 +4,25 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.296 – 0.320 (2026-11-16): the race mission
+- The story can now be played together up to the race mission without problems.
+- **Race mission:** only the host's race counts. The host has to finish first to win; the second player can drive around the track and race the other cars on their own, without lap times.
+- The race cars move the same on the second player's side, and the second player gets their own race car beside the host's.
+- After the race both players move on to the next mission together.
+- **F3** also restarts the race; the race's pause menu no longer stops the game.
+- The race's difficulty dialog is skipped (the game's default difficulty is kept).
+- Fixed a crash after restarting the race and the second player's game hanging on "Please wait" after the race.
+
+## 0.270 – 0.295 (2026-11-16): motel, rescuing Sam, dogs
+- Dogs are the same for both players and both can fight them.
+- Rescuing the wounded Sam: the host has to reach Sam himself; the game shows "Both players must be at the checkpoint" until both are there.
+- The car at the Clark motel is parked at the pump for both players, also after skipping the cutscene.
+- First-aid boxes on walls heal the second player too.
+- A second co-op session in the same game (back to the menu, host again) works.
+- Moving to the next mission is no longer missed by the second player.
+- Fixed a duplicate "Front" door option on the other player's car.
+- **F10** during a checkpoint wait puts you right next to the other player (on foot only).
+
 ## 0.244 – 0.269 (2026-11-15): story missions 1 – 3 together
 - Played together from a New Game through the end of the first mission, into the taxi mission and Molotov Party.
 - Cutscenes stay in sync across the first missions; a skip now counts only for the cutscene both players are watching.

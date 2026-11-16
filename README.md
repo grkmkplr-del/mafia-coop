@@ -4,7 +4,7 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.269 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.320 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -36,7 +36,9 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
 | Mission checkpoints: the game waits for both players | ✅ Working |
-| Story played together into mission 3 (Molotov Party) | ✅ Working |
+| Story played together up to the race mission, without problems | ✅ Working |
+| Race mission: only the host's race counts (see below) | ✅ Working |
+| Dogs synced | ✅ Working |
 | Full story campaign in co-op | 🔧 In progress |
 | Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
 
@@ -58,6 +60,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **No pause.** Opening the ESC menu does not stop the game for the other player.
 - **Co-op HUD** *(being tested)*. The other player's name and health over their head, and their position on the TAB map.
 - **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
+- **Race mission.** Only the host's race and lap times count: the host has to finish first to win. The second player gets their own race car and can drive around the track and race the other cars on their own, without lap times. After the race both players move on together.
 - **Handy keys.** F10 jumps to the other player (with your car), F3 lets the host restart the mission.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Traffic.** City traffic and car colors are the same for both. Steal a car or pull a driver out, and the other player sees it happen.
@@ -68,6 +71,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 - **Tested on one PC so far.** Joining by IP is built, but every test so far ran two copies of the game on the same computer. Playing over the internet may need the host to open a port on the router.
 - Built for the Steam version of *Mafia* (app 40990). Other versions are not supported yet; the mod checks the game build and stays off on any other version.
+- Race mission: the second player's race does not count, only the host's.
 - Known issues are listed per version in the [patch notes](CHANGELOG.md).
 
 ## Screenshots & video
