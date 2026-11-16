@@ -38,7 +38,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Mission checkpoints: the game waits for both players | ✅ Working |
 | Story played together up to the race mission, without problems | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
-| Dogs synced | ✅ Working |
+| Dogs synced | 🔧 New, being tested |
 | Full story campaign in co-op | 🔧 In progress |
 | Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
 
