@@ -4,6 +4,22 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.321 – 0.370 (2026-11-17 – 2026-11-18): story playable up to "Visiting Rich People"
+**The story can now be played together from the start up to the "Visiting Rich People" mission.** Fixes are ongoing.
+
+Main changes:
+- **In-game chat:** press T to type, Enter to send.
+- **F6** shows the co-op keys (like F1 shows the objectives).
+- **Saves keep both players:** mission autosaves are written for both, and the second player's own weapons and health come back after loading a save or a Retry.
+- Wait messages ("Waiting for the other player", "Both players must be at the checkpoint", skip votes) now appear in the game's own HUD, and at the top of the screen during cutscenes.
+- Cutscenes wait until the second player is close before they start.
+- The second player's death is now always seen by the host, also outside the race.
+- Race mission: the race panel (time, lap, position) is shown to the second player; if the second player dies, the race ends and both can Retry.
+- Trams are the same for both players; more pedestrians in the city centre.
+- During camera dialogues the second player stays next to the host and is released when the talk ends.
+- Mission-specific fixes for missions 6 – 10 (Salieri's bar, Sarah, the hooligans, the barn, the truck ride, the airport).
+- Many crash and freeze fixes around cutscenes, cars, Retries and mission changes.
+
 ## 0.296 – 0.320 (2026-11-16): the race mission
 - The story can now be played together up to the race mission without problems.
 - **Race mission:** only the host's race counts. The host has to finish first to win; the second player can drive around the track and race the other cars on their own, without lap times.

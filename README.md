@@ -4,7 +4,9 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**Current build:** 0.320 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**The story is playable together from the start up to the "Visiting Rich People" mission.** Fixes are ongoing.
+
+**Current build:** 0.370 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -32,7 +34,9 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
 | Mission checkpoints: the game waits for both players | ✅ Working |
-| Story played together up to the race mission, without problems | ✅ Working |
+| Story playable from the start up to "Visiting Rich People" | ✅ Working |
+| In-game chat (T) | ✅ Working |
+| Saves keep both players' weapons and health | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
 | Full story campaign in co-op | 🔧 In progress |
 | Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
@@ -53,7 +57,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **No pause.** Opening the ESC menu does not stop the game for the other player.
 - **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
 - **Race mission.** Only the host's race and lap times count: the host has to finish first to win. The second player gets their own race car and can drive around the track and race the other cars on their own, without lap times. After the race both players move on together.
-- **Handy keys.** F10 jumps to the other player (with your car), F3 lets the host restart the mission.
+- **Handy keys.** T opens the chat, F6 shows the co-op keys, F10 jumps to the other player (with your car), F3 lets the host restart the mission.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.
 - **Police.** Cops, police cars and roadblocks are the same for both players. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text. Both players can fight and kill cops.
