@@ -17,7 +17,7 @@ Main changes:
 - Race mission: the race panel (time, lap, position) is shown to the second player; if the second player dies, the race ends and both can Retry.
 - Trams are the same for both players; more pedestrians in the city centre.
 - During camera dialogues the second player stays next to the host and is released when the talk ends.
-- Mission-specific fixes for missions 6 – 10 (Salieri's bar, Sarah, the hooligans, the barn, the truck ride, the airport).
+- Mission-specific fixes (Salieri's bar, Sarah, the hooligans, the barn, the truck ride, the airport).
 - Many crash and freeze fixes around cutscenes, cars, Retries and mission changes.
 
 ## 0.296 – 0.320 (2026-11-16): the race mission
