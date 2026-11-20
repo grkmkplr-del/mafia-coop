@@ -4,9 +4,9 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**The story is playable together from the start up to the "Visiting Rich People" mission.** Fixes are ongoing.
+**The story is playable together from the start up to the "Crème de la Crème" mission.** Only a few small issues are left in the earlier missions, and fixing them should not take long.
 
-**Current build:** 0.370 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.438 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -17,26 +17,21 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | See the other player (movement, full animation, weapon in hand) | ✅ Working |
 | Lobby: Host/Join Game in the main menu, New Game and Load Game together | ✅ Working |
 | Cutscenes together, skipped only when both press skip | ✅ Working |
-| Mission sync: host runs the mission, client follows (objectives, cutscenes, world state) | 🔧 In progress |
 | Mission NPCs synced (movement, animation, health, death) | ✅ Working |
-| Combat: both players can hit enemies, enemies target both players | ✅ Working |
-| World items: shared ground weapons and pickups, doors | ✅ Working |
+| Combat: both players can hit enemies, enemies target both players | 🟡 Mostly working |
 | Throwing weapons to each other | ✅ Working |
 | Weapon sharing between players | ✅ Working |
 | Cars: driving, damage, locks and picklock synced | ✅ Working |
 | Riding as passenger | ✅ Working |
-| Enemy chase cars synced | ✅ Working |
 | Moving between places together (garage, city) | ✅ Working |
 | Mission dialogues: subtitles and conversations for both players | ✅ Working |
-| Pause menu does not pause the game | ✅ Working |
-| Separate save folder for co-op games | 🔧 New, being tested |
+| Co-op saves: the second player's weapons and health are saved, fully in sync | ✅ Working |
 | Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
 | Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
 | Mission checkpoints: the game waits for both players | ✅ Working |
-| Story playable from the start up to "Visiting Rich People" | ✅ Working |
+| Story playable from the start up to "Crème de la Crème" | ✅ Working |
 | In-game chat (T) | ✅ Working |
-| Saves keep both players' weapons and health | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
 | Full story campaign in co-op | 🔧 In progress |
 | Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
@@ -45,16 +40,15 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 - **Lobby.** A "Host/Join Game" option in the main menu: the host creates the game, the other player joins by IP. Starting a New Game or loading a save in the lobby starts it for both.
 - **Cutscenes together.** Both players watch each cutscene at the same time; it is skipped only when both press skip.
-- **Two players, one mission.** The host plays the story and leads the mission. The second player joins the same mission and sees the same objectives, cutscenes and changes in the world. *(In progress.)*
 - **Players see each other.** Movement, turning and every animation of the other player, with the weapon in their hand.
 - **Mission characters** (allies and enemies) move, animate, take damage and die the same way for both players.
-- **Combat.** Both players can hit enemies and allies; enemies notice, target and damage both players. Allies' health bars are shown for both.
-- **World items.** Weapons a mission hands out can be taken by both players, so nobody goes in unarmed. Weapons dropped during play exist once: whoever takes one, it is gone for the other. Doors are shared.
+- **Combat.** Both players can hit enemies and allies; enemies notice, target and damage both players. Allies' health bars are shown for both. The game's AI is fairly simple, so enemies sometimes take a moment longer to target the second player.
 - **Weapon sharing.** Throw a weapon to the other player and they can pick it up and use it; players can share weapons with each other during a mission.
 - **Cars.** Either player can drive; the other sees the car move, crash and take damage the same way. Car locks and picklocking are shared. Garage cars included.
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
 - **Dialogues.** Both players see the subtitles of what characters say; during conversations the second player stands next to the host.
-- **No pause.** Opening the ESC menu does not stop the game for the other player.
+- **Saves.** Co-op games use their own save folder. The second player's weapons, health and car are saved with every save and come back after loading or a Retry, fully in sync with the host.
+- **Mission by mission.** Every mission needs its own co-op fixes: scripted scenes, cars, allies and checkpoints all behave differently. Some missions needed a lot of fixes and took a lot of work.
 - **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
 - **Race mission.** Only the host's race and lap times count: the host has to finish first to win. The second player gets their own race car and can drive around the track and race the other cars on their own, without lap times. After the race both players move on together.
 - **Handy keys.** T opens the chat, F6 shows the co-op keys, F10 jumps to the other player (with your car), F3 lets the host restart the mission.

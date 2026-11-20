@@ -4,6 +4,18 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.371 – 0.438 (2026-11-19 – 2026-11-20): story playable up to "Crème de la Crème"
+**The story can now be played together from the start up to the "Crème de la Crème" mission.** Only a few small issues are left in the earlier missions; fixing them should not take long.
+
+Main changes:
+- **Save system reworked:** the second player's weapons and health are now saved without problems and stay fully in sync, also across mission changes and Retries. The second player's car is kept with the save too.
+- **Police:** cops in police cars, traffic police cars and roadblocks now match for both players; no more duplicate police cars or crowds of extra cops on the second player's side.
+- Fixed the game slowing down to a few frames per second after several Retries.
+- Fixed missing traffic for the second player at the restaurant.
+- Fixed a common crash when quitting the game.
+- Many missions needed their own co-op fixes (the villa, the garage fight, the truck chase, the restaurant, the traitor, the disguise on the ship, Vincenzo's bomb, the port chase); some of them took a lot of work.
+- Many crash fixes around cars, allies getting in and out of cars, Retries and loaded saves.
+
 ## 0.321 – 0.370 (2026-11-17 – 2026-11-18): story playable up to "Visiting Rich People"
 **The story can now be played together from the start up to the "Visiting Rich People" mission.** Fixes are ongoing.
 
