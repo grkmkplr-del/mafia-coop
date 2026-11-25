@@ -4,6 +4,22 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.439 – 0.513 (2026-11-21 – 2026-11-25): every mission tested and playable
+**All missions have been fully tested and the whole story is playable together.** Small bugs and fixes are left in the loading parts of 3 – 5 missions.
+
+**Not tested over the internet yet:** so far both games ran on one PC (localhost). Tests from other PCs, with the host's port opened, are coming soon.
+
+Main changes:
+- **Enemies have more health in co-op** (about twice as much; a bit less in the last mission), so missions stay a challenge with two players.
+- Enemies now hear the second player's shots and react to them, and they react faster.
+- Pedestrians, enemies and trams are fully synced. Police on foot are only partly synced: some foot cops may not look the same in both games.
+- The second player's health and weapons now carry over correctly through mission changes, Retries and the gun shop.
+- Synced the crates in the truck missions, the drawbridges and the gun shop.
+- The second player's car follows through every checkpoint, Retry and loaded save.
+- Prison: both players are kept safe while dropping into the sewer; the sewer exit no longer gets stuck.
+- Some opening cutscenes cannot be skipped in their first seconds, so both players start the fight at the same moment.
+- Many crash fixes across the late missions.
+
 ## 0.371 – 0.438 (2026-11-19 – 2026-11-20): story playable up to "Crème de la Crème"
 **The story can now be played together from the start up to the "Crème de la Crème" mission.** Only a few small issues are left in the earlier missions; fixing them should not take long.
 

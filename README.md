@@ -4,9 +4,11 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**The story is playable together from the start up to the "Crème de la Crème" mission.** Only a few small issues are left in the earlier missions, and fixing them should not take long.
+**All missions have been fully tested and the whole story is playable together.** Small bugs and fixes are left in the loading parts of 3 – 5 missions.
 
-**Current build:** 0.438 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Not tested over the internet yet:** so far both games ran on one PC (localhost). Tests from other PCs, with the host's port opened, are coming soon.
+
+**Current build:** 0.513 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -26,15 +28,18 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Moving between places together (garage, city) | ✅ Working |
 | Mission dialogues: subtitles and conversations for both players | ✅ Working |
 | Co-op saves: the second player's weapons and health are saved, fully in sync | ✅ Working |
-| Street pedestrians mirrored (same people, same skins, same deaths) | ✅ Working |
-| Police arrest either player, shared Retry, police cops and roadblocks synced | ✅ Working |
+| Pedestrians: fully synced | ✅ Working |
+| Enemies: fully synced | ✅ Working |
+| Public transport (trams): fully synced | ✅ Working |
+| Enemies have more health in co-op | ✅ Working |
+| Police: partly synced (some foot cops may not look the same in both games) | 🟡 Partly synced |
+| Police arrest either player, shared Retry, police cars and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
 | Mission checkpoints: the game waits for both players | ✅ Working |
-| Story playable from the start up to "Crème de la Crème" | ✅ Working |
 | In-game chat (T) | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
-| Full story campaign in co-op | 🔧 In progress |
-| Playing over LAN / internet (join by IP) | 🔧 Built, not tested yet |
+| Full story campaign in co-op: all missions tested and playable | ✅ Working (small loading fixes left in 3 – 5 missions) |
+| Playing over LAN / internet (join by IP, host opens a port) | 🔧 Built, tests from other PCs coming soon |
 
 ### In detail
 
@@ -48,17 +53,20 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Passengers.** Ride along while the other player drives, and get out while the engine is running.
 - **Dialogues.** Both players see the subtitles of what characters say; during conversations the second player stands next to the host.
 - **Saves.** Co-op games use their own save folder. The second player's weapons, health and car are saved with every save and come back after loading or a Retry, fully in sync with the host.
+- **Tougher enemies.** Two players are stronger than one, so enemies have more health in co-op (about twice as much, a bit less in the last mission). Enemies also hear the second player's shots and react to them.
 - **Mission by mission.** Every mission needs its own co-op fixes: scripted scenes, cars, allies and checkpoints all behave differently. Some missions needed a lot of fixes and took a lot of work.
 - **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
 - **Race mission.** Only the host's race and lap times count: the host has to finish first to win. The second player gets their own race car and can drive around the track and race the other cars on their own, without lap times. After the race both players move on together.
 - **Handy keys.** T opens the chat, F6 shows the co-op keys, F10 jumps to the other player (with your car), F3 lets the host restart the mission.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
-- **Pedestrians.** The same people on the streets for both players, with the same looks, the same reactions and the same deaths.
-- **Police.** Cops, police cars and roadblocks are the same for both players. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text. Both players can fight and kill cops.
+- **Pedestrians, enemies and trams** are fully synced: the same people, the same looks, the same reactions and the same deaths in both games.
+- **Police.** Police cars and roadblocks are the same for both players; police on foot are only partly synced, so some foot cops may not look the same in both games. The police react to the second player's crimes and drawn weapons and can arrest either player; the second player sees the handcuff icon and the crime text. Both players can fight and kill cops.
 
 ## Current limitations
 
-- **Tested on one PC so far.** Joining by IP is built, but every test so far ran two copies of the game on the same computer. Playing over the internet may need the host to open a port on the router.
+- **Tested on one PC so far.** Joining by IP is built, but every test so far ran two copies of the game on the same computer (localhost). Tests from other PCs are coming soon; the host has to open a port on the router.
+- Police on foot are only partly synced.
+- Small loading bugs are left in 3 – 5 missions.
 - Built for the Steam version of *Mafia* (app 40990). Other versions are not supported yet; the mod checks the game build and stays off on any other version.
 - Race mission: the second player's race does not count, only the host's.
 - Known issues are listed per version in the [patch notes](CHANGELOG.md).
