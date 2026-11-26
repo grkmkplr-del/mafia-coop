@@ -67,7 +67,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 - **Tested on one PC so far.** Every test so far ran two copies of the game on the same computer (localhost). The internet test with a second PC is next; the mod will be shared after it.
 - Police on foot are only partly synced.
-- Built on the Steam version of *Mafia* (app 40990). It also works on a non-Steam copy of *Mafia* version 1.2. The GOG version has not been tested yet.
+- Built on the Steam version of *Mafia* (app 40990). It also works on *Mafia* version 1.2. The GOG version has not been tested yet.
 - Race mission: the second player's race does not count, only the host's.
 - Known issues are listed per version in the [patch notes](CHANGELOG.md).
 
