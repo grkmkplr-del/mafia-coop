@@ -12,7 +12,7 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 Today's changes:
 - **Automatic port (UPnP):** the host can now play with or without opening a port by hand. With "Auto port (UPnP)" on, the mod asks the router to open the port and shows the IP the other player has to enter. If that is not possible, the lobby says why (no router, no public IP, …).
 - **Ready for release:** the game runs in full screen with its own display settings, logs are kept small, and an install package with instructions was put together.
-- Mission timers (for example in the motel mission) now run the same for both players.
+- Mission timers now run the same for both players.
 - Race: the second player's camera no longer zooms in after a Retry.
 - Fixed civilians on the ship raising the alarm too early for the second player.
 - Enemies aim a bit better; the plane at the airport has more health, and it no longer grows with every restart.
