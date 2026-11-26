@@ -4,11 +4,11 @@
 
 A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays the story as Tommy; the second player joins the same mission and shares the same world: the same NPCs, cars, traffic, pedestrians and police. Fight together, drive together, ride along, retry together.
 
-**All missions have been fully tested and the whole story is playable together.** Small bugs and fixes are left in the loading parts of 3 – 5 missions.
+**All missions have been tested and fixed: the whole story is playable together.**
 
-**Not tested over the internet yet:** so far both games ran on one PC (localhost). Tests from other PCs, with the host's port opened, are coming soon.
+**Next step:** a test over the internet with a second PC. The mod will be shared right after that test.
 
-**Current build:** 0.513 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.549 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -38,12 +38,13 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Mission checkpoints: the game waits for both players | ✅ Working |
 | In-game chat (T) | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
-| Full story campaign in co-op: all missions tested and playable | ✅ Working (small loading fixes left in 3 – 5 missions) |
-| Playing over LAN / internet (join by IP, host opens a port) | 🔧 Built, tests from other PCs coming soon |
+| Full story campaign in co-op: all missions tested and fixed | ✅ Working |
+| Playing over LAN / internet: join by IP; the host opens a port by hand or lets the mod open it automatically (UPnP) | 🔧 Built, internet test with a second PC next |
 
 ### In detail
 
 - **Lobby.** A "Host/Join Game" option in the main menu: the host creates the game, the other player joins by IP. Starting a New Game or loading a save in the lobby starts it for both.
+- **Port or no port.** The host can open the game's port on the router by hand, or turn on "Auto port (UPnP)" in the lobby and let the mod open it; the lobby then shows the IP the other player has to enter.
 - **Cutscenes together.** Both players watch each cutscene at the same time; it is skipped only when both press skip.
 - **Players see each other.** Movement, turning and every animation of the other player, with the weapon in their hand.
 - **Mission characters** (allies and enemies) move, animate, take damage and die the same way for both players.
@@ -64,9 +65,8 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 ## Current limitations
 
-- **Tested on one PC so far.** Joining by IP is built, but every test so far ran two copies of the game on the same computer (localhost). Tests from other PCs are coming soon; the host has to open a port on the router.
+- **Tested on one PC so far.** Every test so far ran two copies of the game on the same computer (localhost). The internet test with a second PC is next; the mod will be shared after it.
 - Police on foot are only partly synced.
-- Small loading bugs are left in 3 – 5 missions.
 - Built for the Steam version of *Mafia* (app 40990). Other versions are not supported yet; the mod checks the game build and stays off on any other version.
 - Race mission: the second player's race does not count, only the host's.
 - Known issues are listed per version in the [patch notes](CHANGELOG.md).

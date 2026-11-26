@@ -4,6 +4,23 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.514 – 0.549 (2026-11-26): all missions fixed, automatic port (UPnP)
+**All missions have been tested and fixed: the whole story is playable together.**
+
+**Next step:** a test over the internet with a second PC. The mod will be shared right after that test.
+
+Today's changes:
+- **Automatic port (UPnP):** the host can now play with or without opening a port by hand. With "Auto port (UPnP)" on, the mod asks the router to open the port and shows the IP the other player has to enter. If that is not possible, the lobby says why (no router, no public IP, …).
+- **Ready for release:** the game runs in full screen with its own display settings, logs are kept small, and an install package with instructions was put together.
+- Mission timers (for example in the motel mission) now run the same for both players.
+- Race: the second player's camera no longer zooms in after a Retry.
+- Fixed civilians on the ship raising the alarm too early for the second player.
+- Enemies aim a bit better; the plane at the airport has more health, and it no longer grows with every restart.
+- The second player starts empty-handed after a load, like the host.
+- The second player's deaths right after a scene change are no longer missed.
+- Some opening cutscenes cannot be skipped in their first seconds, so both players start together.
+- Fixes in the villa, Salieri's bar garage and the bar cutscenes after a Retry.
+
 ## 0.439 – 0.513 (2026-11-21 – 2026-11-25): every mission tested and playable
 **All missions have been fully tested and the whole story is playable together.** Small bugs and fixes are left in the loading parts of 3 – 5 missions.
 
