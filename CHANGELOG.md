@@ -4,6 +4,19 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.550 – 0.586 (2026-11-26 – 2026-11-27): online play, smoother sync
+**Online play over the internet works.** Depending on the quality of the connection, small momentary sync glitches can happen.
+
+Main changes:
+- **Network sync optimized for online play:** traffic, police cars, people and the car the other player drives are now shown from a short buffer and corrected by speed instead of being snapped into place. Driving with the other player is much smoother, also with lag or lost packets.
+- The other player's car follows their steering, gas and brake, so it turns and brakes the same way on both sides.
+- Traffic cars keep their damage correctly and no longer get crushed by sync jolts on the second player's side.
+- The second player no longer gets hurt or killed by sync jolts: no crash damage while riding along, no deaths from being "run over" by a synced car.
+- **Taxi mission:** the host can type `/skip1` … `/skip5` in the chat to jump straight to the next fare's drop-off; F10 now also works in cars in this mission.
+- No cutscene can be skipped in its first 10 seconds, so both players start together.
+- Fixed a double loading after a team Retry, and "Mission failed" after a fall now restarts both players correctly.
+- The install package was updated with short install instructions.
+
 ## 0.514 – 0.549 (2026-11-26): all missions fixed, automatic port (UPnP)
 **All missions have been tested and fixed: the whole story is playable together.**
 

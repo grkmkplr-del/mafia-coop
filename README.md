@@ -6,9 +6,9 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 **All missions have been tested and fixed: the whole story is playable together.**
 
-**Next step:** a test over the internet with a second PC. The mod will be shared right after that test.
+**Online play over the internet works.** Depending on the quality of the connection, small momentary sync glitches can happen.
 
-**Current build:** 0.549 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.586 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -30,8 +30,6 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | Co-op saves: the second player's weapons and health are saved, fully in sync | ✅ Working |
 | Pedestrians: fully synced | ✅ Working |
 | Enemies: fully synced | ✅ Working |
-| Public transport (trams): fully synced | ✅ Working |
-| Enemies have more health in co-op | ✅ Working |
 | Police: partly synced (some foot cops may not look the same in both games) | 🟡 Partly synced |
 | Police arrest either player, shared Retry, police cars and roadblocks synced | ✅ Working |
 | Police reacting to the second player's crimes and drawn weapons | ✅ Working |
@@ -39,7 +37,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 | In-game chat (T) | ✅ Working |
 | Race mission: only the host's race counts (see below) | ✅ Working |
 | Full story campaign in co-op: all missions tested and fixed | ✅ Working |
-| Playing over LAN / internet: join by IP; the host opens a port by hand or lets the mod open it automatically (UPnP) | 🔧 Built, internet test with a second PC next |
+| Playing over LAN / internet: join by IP; the host opens a port by hand or lets the mod open it automatically (UPnP) | ✅ Working (small momentary sync glitches can happen, depending on the connection quality) |
 
 ### In detail
 
@@ -65,7 +63,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 ## Current limitations
 
-- **Tested on one PC so far.** Every test so far ran two copies of the game on the same computer (localhost). The internet test with a second PC is next; the mod will be shared after it.
+- **Online sync depends on the connection.** Over the internet, small momentary sync glitches can happen (for example a car or a person jumping a little), depending on the quality of the connection.
 - Police on foot are only partly synced.
 - Built on the Steam version of *Mafia* (app 40990). It also works on *Mafia* version 1.2. The GOG version has not been tested yet.
 - Race mission: the second player's race does not count, only the host's.
