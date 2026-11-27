@@ -8,7 +8,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 
 **Online play over the internet works.** Depending on the quality of the connection, small momentary sync glitches can happen.
 
-**Current build:** 0.586 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
+**Current build:** 0.593 · **Patch notes:** [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -56,6 +56,7 @@ A story co-op mod for *Mafia: The City of Lost Heaven* (2002). The host plays th
 - **Mission by mission.** Every mission needs its own co-op fixes: scripted scenes, cars, allies and checkpoints all behave differently. Some missions needed a lot of fixes and took a lot of work.
 - **Checkpoints.** Either player can reach a mission checkpoint first; the game waits until both are there.
 - **Race mission.** Only the host's race and lap times count: the host has to finish first to win. The second player gets their own race car and can drive around the track and race the other cars on their own, without lap times. After the race both players move on together.
+- **Connection info.** Ping and packet loss are shown in the bottom-right corner; if the other player is gone for 10 seconds, the game says the connection was lost.
 - **Handy keys.** T opens the chat, F6 shows the co-op keys, F10 jumps to the other player (with your car), F3 lets the host restart the mission.
 - **Moving between places.** When a mission moves on to a new place, the game waits until both players are at the exit, and your car comes along.
 - **Pedestrians, enemies and trams** are fully synced: the same people, the same looks, the same reactions and the same deaths in both games.

@@ -4,6 +4,14 @@ Development history of the Mafia co-op mod. Every build was tested with two copi
 
 ---
 
+## 0.587 – 0.593 (2026-11-27): smoother online play, ping display
+- **The other player's Tommy moves much more smoothly** online: movement and animations are shown from a short buffer between real updates instead of jumping to each new position.
+- The car the other player drives is smoother, especially right after the game's full car updates.
+- **Lost packets are covered:** each update also carries the one before it, so a single lost packet no longer causes a jump for cars, police cars, people or the other player.
+- **Ping and packet loss** are shown in the bottom-right corner (green when the connection is good).
+- **Connection lost:** if nothing arrives from the other player for 10 seconds, the game shows a message instead of freezing the sync.
+- Better crash reports for bug hunting.
+
 ## 0.550 – 0.586 (2026-11-26 – 2026-11-27): online play, smoother sync
 **Online play over the internet works.** Depending on the quality of the connection, small momentary sync glitches can happen.
 
